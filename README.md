@@ -1,5 +1,13 @@
 # AkibaSafe - Your Money Never Disappears
 
+##  Live Demo
+
+**Try the app now:** [https://akibasafe.vercel.app](https://akibasafe.vercel.app)
+
+[![Deployed with Vercel](https://img.shields.io/badge/Deployed%20with-Vercel-000000.svg)](https://vercel.com)
+
+---
+
 ![AkibaSafe Banner](https://img.shields.io/badge/Bitcoin-Savings-orange)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
@@ -7,7 +15,7 @@
 
 **AkibaSafe** is a decentralized Bitcoin savings application that gives you full control of your money. Unlike traditional savings apps where funds can disappear without trace, AkibaSafe provides total transparency through Bitcoin blockchain technology.
 
-## Table of Contents
+##  Table of Contents
 
 - [Problem Statement](#problem-statement)
 - [Solution](#solution)
@@ -19,7 +27,7 @@
 - [Project Structure](#project-structure)
 - [License](#license)
 
-## Problem Statement
+##  Problem Statement
 
 Every day, thousands of Kenyans lose money in digital savings platforms. Users save for months, but when they try to withdraw, their balances show zero. Customer support gives vague answers: "system error," "technical glitch," or silence. The money simply disappears.
 
@@ -33,7 +41,7 @@ Every day, thousands of Kenyans lose money in digital savings platforms. Users s
 | Withdrawal restrictions | Platforms can freeze or limit access to your own money |
 | Poor returns | Interest rates below inflation (losing purchasing power) |
 
-## Solution
+##  Solution
 
 **AkibaSafe turns "trust me" into "verify me."**
 
@@ -49,19 +57,19 @@ Your money is stored on the Bitcoin blockchain - a public, immutable ledger wher
 | Withdrawal restrictions? | Yes - Limits & freezes | **No - 24/7 access** |
 | Returns | 2-5% (Below inflation) | **Bitcoin appreciation (60%+ historically)** |
 
-## Features
+##  Features
 
 ### Core Features
 
-- **Self-Custody**: You hold your 12-word recovery phrase. Your keys, your coins.
-- * Total Transparency**: Every transaction logged on Bitcoin's blockchain - fully verifiable
+- ** Self-Custody**: You hold your 12-word recovery phrase. Your keys, your coins.
+- ** Total Transparency**: Every transaction logged on Bitcoin's blockchain - fully verifiable
 - ** Dual Savings Strategy**:
   - Short-term: Stable value for daily spending (converted to stablecoins)
   - Long-term: Bitcoin accumulation for wealth growth
 - ** Auto-Sweep to Cold Storage**: Funds automatically move to offline storage at 100,000 sats threshold
-- **Tando Integration**: Spend Bitcoin directly to any M-PESA number without converting
-- **Bitika Integration**: Buy Bitcoin instantly via M-PESA starting from KES 10
-- **Activity Log**: Complete transaction history with timestamps
+- ** Tando Integration**: Spend Bitcoin directly to any M-PESA number without converting
+- ** Bitika Integration**: Buy Bitcoin instantly via M-PESA starting from KES 10
+- ** Activity Log**: Complete transaction history with timestamps
 - ** Mobile Responsive**: Works perfectly on all devices
 
 ### Security Features
@@ -71,7 +79,7 @@ Your money is stored on the Bitcoin blockchain - a public, immutable ledger wher
 - Cold storage for long-term savings
 - LocalStorage persistence (no cloud storage of keys)
 
-## How It Works
+##  How It Works
 
 ### 3-Step Process
 
@@ -101,7 +109,7 @@ User wants to spend? → Send via Tando → M-PESA
 
 text
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -113,10 +121,10 @@ text
 | State Management | React Hooks + LocalStorage |
 | APIs (Mock) | Bitika, Tando, Submarine swaps |
 
-## Installation
+##  Installation
 
 ### Prerequisites
-money
+
 - Node.js 18+ installed
 - npm or yarn package manager
 
@@ -136,7 +144,7 @@ npm install
 npm run dev
 Open http://localhost:3000 to see the app.
 
-🎮 Usage
+ Usage
 For Users
 Landing Page: Read about how AkibaSafe works
 
@@ -162,7 +170,7 @@ View Activity: Check recent transactions in the log
 
 Manage Wallet: Go to Settings to see your seed phrase and backup data
 
-Project Structure
+ Project Structure
 text
 akibasafe/
 ├── app/
@@ -216,3 +224,5 @@ For issues or questions, please open an issue on GitHub or contact the team.
 Built with ❤️ for the Bitcoin Hackathon 2026
 
 Your money never disappears. Full self-custody. Total transparency.
+
+Live Demo: https://akibasafe.vercel.app
